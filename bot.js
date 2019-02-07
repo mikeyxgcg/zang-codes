@@ -207,30 +207,6 @@ hastebin(`${array.slice(0, 30).join('\n')}`, 'txt').then(l => {
         }
 });
 
-
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '528247290385661952').setName("W");
-client.channels.find('id', '528247290385661952').setName("We");
-client.channels.find('id', '528247290385661952').setName("Wel");
-client.channels.find('id', '528247290385661952').setName("Welc");
-client.channels.find('id', '528247290385661952').setName("Welco");
-client.channels.find('id', '528247290385661952').setName("Welcom");
-client.channels.find('id', '528247290385661952').setName("Welcome");
-client.channels.find('id', '528247290385661952').setName("Welcome T");
-client.channels.find('id', '528247290385661952').setName("Welcome To");
-client.channels.find('id', '528247290385661952').setName("Welcome To T");
-client.channels.find('id', '528247290385661952').setName("Welcome To ox");
-client.channels.find('id', '528247290385661952').setName("Welcome To Tox");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic C");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Co");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Cod");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Code");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Codes");
-  }, 4000);
-});
-
 client.on('message', rw => {
   if (rw.content.startsWith('#vb')) {
 if (!rw.member.hasPermission("MOVE_MEMBERS")) return rw.channel.send("**YOU DONT HAVE PERMISSION** | ❎ ");
