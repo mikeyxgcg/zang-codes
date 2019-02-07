@@ -1488,7 +1488,7 @@ client.on("message", message => {
       .addField(':crown:**__<@462006869834203159>__**',`**${msg.guild.owner}**`,true)
 
 
-       .setFooter('Toxic Codes')
+       .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -1718,11 +1718,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Toxic » Support', '• Toxic » Support Plus');
+  let rank = message.guild.member(message.author).roles.find('name', 'ZangOwners', '• Toxic » Support Plus');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة [ZangOwners] لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-html");
+  let jscodes = message.guild.channels.find(`name`, "discord-html");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -1830,7 +1830,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**Zang Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -1983,10 +1983,10 @@ if(!aUser) return msg.channel.send("Couldn't find users.");
     
     let ac = msg.guild.channels.find(`name`,"القبول-الرفض"); 
     if(!ac) return msg.channel.send("Couldn't find `القبول-الرفض` channel. "); 
-    ac.send(`** [ @• Toxic » Support  ]تم بنجاح قبولك  واعطائك رتبة ${aUser}**`)
+    ac.send(`** [ @Zang » Support  ]تم بنجاح قبولك  واعطائك رتبة ${aUser}**`)
 
     msg.delete().catch(O_o=>{});
-    var role = msg.guild.roles.find(`name`, '• Toxic » Support');
+    var role = msg.guild.roles.find(`name`, 'Zang » Support');
     var role2 = msg.guild.roles.find(`name`, '• Help » Github');
     var role3 = msg.guild.roles.find(`name`, '• Help » Heroku');
     if(!role) return msg.guild.channel.send("Could't find `• Toxic » Support` role.");
@@ -2017,7 +2017,7 @@ if(!aUser) return msg.channel.send("Couldn't find users.");
 
     
     
-    var role = msg.guild.roles.find(`name`, '• Toxic » Support');
+    var role = msg.guild.roles.find(`name`, 'Zang » Support');
     var role2 = msg.guild.roles.find(`name`, '• Help » Github');
     var role3 = msg.guild.roles.find(`name`, '• Help » Heroku');
     if(!role) return msg.guild.channel.send("Could't find `• Toxic » Support` role.");
@@ -2080,7 +2080,7 @@ client.on('message', message => {
        .addField("**#help-js-games-8  ➺      ⦁ لعبة قرعة** ⦁",' ‎ ')
        .addField("**#help-js-games-9  ➺      ⦁ لعبة اكس او** ⦁",' ‎ ')
        .addField("**#help-js-games-10  ➺      ⦁ لعبة اسرع كتابة** ⦁",' ‎ ')
-   .setFooter('Toxic Cods')
+   .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -2282,11 +2282,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Toxic » Support');
+  let rank = message.guild.member(message.author).roles.find('name', 'ZangOwners');
 
   if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-py");
+  let jscodes = message.guild.channels.find(`name`, "discord-py");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -2394,7 +2394,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**ZangOwners© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -2543,7 +2543,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**ZangOwners© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
@@ -2703,7 +2703,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**Zang Owners© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
