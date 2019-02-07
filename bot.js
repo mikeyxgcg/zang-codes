@@ -21,8 +21,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers ' Script By : n3k4a  Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`#help-js | #help2 | #تقديم `,"http://twitch.tv/S-F")
-client.user.setStatus("dnd")
+client.user.setStatus("online")
  
 });
 
