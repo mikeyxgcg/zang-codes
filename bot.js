@@ -370,7 +370,7 @@ client.on('messageReactionRemove', (reaction, user) => {
 	.addField("❧  **#help-js-help      ➺      ⦁ قسم أكواد الهلب** ⦁",' ‎ ')
             .addField("❧  **#help-js-bc        ➺      ⦁ قسم أكواد البرودكاست** ⦁",' ‎ ')
                 .addField("❧  **#help-js-games        ➺      ⦁ قسم اكواد الالعاب** ⦁",' ‎ ')
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -396,7 +396,7 @@ client.on('messageReactionRemove', (reaction, user) => {
        .addField("**#help-js-source-4  ➺      ⦁ السورس الأساسي مع الستريمنق ومعلومات البوت** ⦁",' ‎ ')
          .addField("**#help-js-source-5  ➺      ⦁ السورس الأساسي من العادي** ⦁",' ‎ ')
 	 
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -549,7 +549,7 @@ client.on('messageReactionRemove', (reaction, user) => {
      .addField("**#help-js-admin-15 ➺ ⦁ كود التفعيل بي الريكشن ** ⦁",' ‎ ')
 	  
 	  
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -863,7 +863,7 @@ https://pastebin.com/EcGhrAMJ
  .addField("**#help-js-general-7  ➺      ⦁ كود صراحه** ⦁",' ‎ ')	  
 	  
 	  
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
    message.channel.send({embed});
 
@@ -1047,7 +1047,7 @@ https://pastebin.com/EcGhrAMJ
 
 	 
 		   
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -1153,7 +1153,7 @@ https://pastebin.com/EcGhrAMJ
   .addField("**#help-js-help-1  ➺      ⦁ كود هلب مع امبد يرسل بنفس الشات **⦁",' ‎ ')
    .addField("**#help-js-help-2  ➺      ⦁ كود هلب مزخرف بدون امبد ويرسل عالخاص ** ⦁",' ‎ ')
 		   
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -1221,7 +1221,7 @@ https://pastebin.com/EcGhrAMJ
   .addField("**#help-js-bc-3  ➺      ⦁ برودكاست + للأونلاين + مع منشن + غير مطور **⦁",' ‎ ')
   .addField("**#help-js-bc-4  ➺      ⦁ برودكاست + للكل + مع منشن + غير مطور ** ⦁",' ‎ ')	   
 		   
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -1556,7 +1556,7 @@ client.on("message", message => {
 .addField("❖ ❖ #ping ➾ عرض سرعه اتصال البوت ⦁",' ‎ ')
 .addField("❖ ❖ #server ➾ معلومات عن السيرفر ⦁",' ‎ ')
 
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -1578,7 +1578,7 @@ if (message.content === prefix + 'help-eris') {
  .addField("      تحت الصيانه     ",' ‎ ')
  .addField("  ╚[❖════════════❖]╝`⦁",' ‎ ')
 
- .setFooter('Toxic Codes')
+ .setFooter('Zang Codes')
 
 
    message.channel.send({embed});
@@ -1595,11 +1595,11 @@ client.on('message',async message => {
 
 if(!message.channel.guild) return message.reply(' ');
 
-  let rank = message.guild.member(message.author).roles.find('name', '• Toxic » Support', '• Toxic » Support Plus');
+  let rank = message.guild.member(message.author).roles.find('name', 'ZangOwners', '• Toxic » Support Plus');
 
-  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة سبورت لأستخدام هذا الأمر.**');
+  if (!rank) return message.channel.send('🛑 **| يجب ان تمتلك رتبة [ZangOwners] لأستخدام هذا الأمر.**');
 
-  let jscodes = message.guild.channels.find(`name`, "✽-discord-js");
+  let jscodes = message.guild.channels.find(`name`, "discord-js");
 
   if(!jscodes) return message.channel.send("❌لم اجد الروم الخاص بنشر الاكواد");
 
@@ -1707,7 +1707,7 @@ if(!message.channel.guild) return message.reply(' ');
 
           jscodes.send(`@everyone | @here
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-**Toxic Codes© ⬇**
+**Zang Codes© ⬇**
 \`\`\`css
 ${thisMessage}\`\`\`
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
